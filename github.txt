@@ -1,0 +1,17 @@
+Repositorios de código GITHUB (master)
+
+1. multiples versiones del mismo codigo.
+2. cambios delta
+	base de datos atómicas del codigo
+	ideales para archivos menores de 10MB
+	para archivos mayores a 10MB es recomendable seguir usanto FTP
+3. historial de cada archivo
+4. multiples personas sobre el mismo archivo
+5. culpa al culpable
+6. ramas(branches)
+	*master(github) REPO PRINCIPAL
+	*master(disco duro) REPO LOCAL
+		*master
+		    --- MERGE (experimental - master)
+		*experimental local
+	*master(servidor.com) REPO PRODUCCION 
