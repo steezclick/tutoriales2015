@@ -5,42 +5,44 @@
 	<!--para que el codigo acepte caracteres del español-->
 	<meta charset="UTF-8"/>
 	<title>Puls2015: Aprendiendo Diseño Web</title>
+	<link rel="stylesheet" type="text/css" href="css/normalize.css"/>
+	<link rel="stylesheet" type="text/css" href="css/estilos.css"/>
 </head>
 <body>
 	<!--inicio de la cabecera-->
 	<header>
 		<!--etiqueta semantica que usaremos para colocar el logo en el header-->
 		<figure id="logo">
-			<img src="logo.png"/>
+			<img src="img/logo.png"/>
 		</figure>
 		<!--titulo-->
-		<h1>Puls2015: Aprendiendo Diseño Web</h1>
+		<h1>Puls2015: Aprendiendo Diseño Web con Mejorandola</h1>
 		<!--figura con la imagen del avatar-->
 		<figure id="avatar">
-			<img src="avatar.jpg"/>
+			<img src="img/avatar.jpg"/>
 		</figure>
-
-		<nav>
-			<ul>
-				<li><a href="#">Python</a></li>
-				<li><a href="#">HTML5</a></li>
-				<li><a href="#">Javascript</a></li>
-				<li><a href="#">CSS3</a></li>
-				<li><a href="#">Django</a></li>
-				<li id="publicar_nav">
-					<a href="#">Publicar</a>
-				</li>
-			</ul>
-		</nav>
 	</header>
 	<!--fin de la cabecera-->
+
+	<nav>
+		<ul>
+			<li><a href="#">Python</a></li>
+			<li><a href="#">HTML5</a></li>
+			<li><a href="#">Javascript</a></li>
+			<li><a href="#">CSS3</a></li>
+			<li><a href="#">Django</a></li>
+			<li id="publicar_nav">
+				<a href="#">Publicar</a>
+			</li>
+		</ul>
+	</nav>
 	
 	<!--inicio de la seccion-->
 	<section id="contenido">
 		<!--el articulo tendra una imagen, titulo, autor, etc -->
 		<article class="item">
 			<figure class="imagen_item">
-				<img src="imagen.jpg"/>
+				<img src="img/imagen.jpg"/>
 			</figure>
 			<h2 class="titulo_item">
 				<a href="#">Título del artículo</a>
@@ -55,8 +57,6 @@
 				<span class="fecha item">
 					hace <strong>5</strong> minutos
 				</span>
-				<a href="#" class="comentarios_item">69</a>
-				<a href="#" class="guardar_item"></a>
 			</div>
 			<!--fin de la caja que contiene los datos del item-->
 
@@ -65,6 +65,8 @@
 				<a href="#" class="up"></a>
 				720
 				<a href="#" class="down"></a>
+				<a href="#" class="comentarios_item">69</a>
+				<a href="#" class="guardar_item"></a>
 			</div>
 			<!--fin de la caja de votaciones-->
 		</article>

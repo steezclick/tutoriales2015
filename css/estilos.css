@@ -1,0 +1,73 @@
+a{
+	color: #22BCE0;
+}
+
+body{
+	background: #EEEEEE;
+	font-family: Arial;
+	font-size: 16px;
+}
+
+header{
+	background: #343B54;
+	color: white;
+	overflow: hidden; /*lo que no esta dentro de el area que esta abarca entonces sera ocultado*/
+	padding: 0.5em;
+	/*obtiene 4 atributos de direccion*/
+	position: relative; /*con esto "atrapamos" al avatar que anteriormente le pusimos absolute*/
+}
+
+header figure{
+	float: left; /*flotar para la izquierda*/
+	/*al hacerlo flotar a la izquierda sale del area que abarca el header*/
+}
+
+header h1{
+	font-size: 1.2em; /*16px * 1.2 = 18.2px*/
+	font-weight: normal; /*le quitamos la negrita*/
+	margin: 0.2em 70px 0 0; /*el h1 tiene un display por defecto de block*/
+}
+
+header #avatar{
+	/*busca la posicion mas cercana al 0,0*/
+	margin: 0.5em 0.5em 0 0;
+	position: absolute;
+	right: 0; /*derecha*/
+	top: 0; /*arriba*/
+}
+
+header #avatar img{
+	border-radius: 50%; /*le damos el 50% de borde para hacerlo redondo	*/
+	width: 55px; /*ancho de 55px*/
+}
+
+header #logo img{
+	border-right: 1px solid white; /*rayita a la derecha*/
+	margin-right: 0.5em; /*margen para afuera*/
+	padding-right: 0.5em; /*margen para adentro*/
+	width: 52px; /*ancho*/
+}
+
+nav{
+	background: #80BCA3;
+	padding: 0 0.5em;
+}
+
+nav ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav ul li{
+	/*las lista son por defecto block*/
+	display: inline-block;
+	margin: 0 1em 0 0;
+}
+
+nav ul li a{
+	color: white;
+	text-decoration: none;
+	display: block; /*se le coloca block por que solo estas tienen pading y margin*/
+	padding: 0.5em 0;
+}

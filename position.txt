@@ -1,0 +1,7 @@
+1. position: static
+Es la posicion por defecto
+
+2. relative
+
+3: absolute
+Busca la posicion 0,0 o la mas cercana a esta

@@ -1,0 +1,4 @@
+1em=16px de ancho y 16px de alto
+
+entonces 1.2em seria igual:
+	16*1.2=19.2px
