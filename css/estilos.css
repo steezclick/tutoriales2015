@@ -246,3 +246,26 @@ nav ul #publicar_nav a:hover{
 		margin: 1em;
 	}
 }
+
+/*formulario*/
+.formulario{
+	margin: 1em 1em 0 0;
+	text-align: right;
+	display: none;
+}
+
+.formulario input{
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	padding: 0.2em 0.6em;
+}
+
+.formulario input[type="submit"]{
+	background: #22BCE0;
+	border-radius: 5px;
+	box-shadow: rgba(0,0,0,0.5) 5px 5px 20px;
+	color: white;
+	font-style: italic;
+	/*color, sombra en eje X, sombra en eje Y, la sombra*/
+	text-shadow: rgba(0,0,0,0.5) 2px 2px 5px;
+}

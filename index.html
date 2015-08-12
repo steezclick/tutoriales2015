@@ -35,21 +35,30 @@
 			<li><a href="#">CSS3</a></li>
 			<li><a href="#">Django</a></li>
 			<li id="publicar_nav">
-				<a href="#" class="icon-lapiz">Publicar</a>
+				<a href="#" class="icon-lapiz" id="mostrar-form">Publicar</a>
 			</li>
 		</ul>
 	</nav>
 
-	<!---->
+	<!--inicio formulario para agregar nuevos temas-->
+	<form actions="" id="formulario" class="formulario">
+		<input type="text" id="titulo" placeholder="Título" required>
+		<input type="url" id="url" placeholder="Link" required>
+		<input type="submit" value="Enviar">
+	</form>
+	<!--fin formulario-->
+
+	<!--inicio aside-->
 	<aside>
 		<video width="320" height="240" controls>
   			<source src="videos/lecturas.mp4" type="video/mp4">
   			<source src="videos/lecturas.ogg" type="video/ogg">
   			<source src="videos/lecturas.webm" type="video/webm">
 			Your browser does not support the video tag.
+			<!--actualiza tu navegardor ctm!-->
 		</video>
 	</aside>
-	<!---->
+	<!--fin aside-->
 	
 	<!--inicio de la seccion-->
 	<section id="contenido">
@@ -76,7 +85,7 @@
 
 			<!--caja de votacion like & dislike-->
 			<div class="votacion">
-				<a href="#" class="up icon-flecha-arriba"></a>
+				<a href="#" class="up icon-up"></a>
 				720
 				<a href="#" class="down icon-down"></a>
 				<a href="#" class="comentarios_item">69</a>
@@ -258,5 +267,7 @@
 		</p>
 	</footer>
 	<!--fin del pie de pagina-->
+	<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+	<script src="prefixfree.js"></script>
 </body>
 </html>
